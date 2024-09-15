@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();;
+        Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Second Toast Message Added", Toast.LENGTH_SHORT).show();
     }
 
 }
